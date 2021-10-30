@@ -1,15 +1,7 @@
-a = 0
-def recursive(count):
-    global a
-    if count==3:
-        a+=1
-        print(a)
-        return 
 
-    for i in range(3):
-        for j in range(3):   
-            count+=1
-            recursive(count)
-            count-=1
+plane = [[0] for _ in range(4)]
+print(plane)
+plane = [[0] for _ in range(1,4)]
+print(plane)
 
-print(recursive(0))
+
